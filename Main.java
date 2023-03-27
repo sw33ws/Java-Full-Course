@@ -677,6 +677,167 @@
 
 
 
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Pizza pizza = new Pizza("thick crust","tomato","mozzarella","pepperoni");
+
+//         System.out.println("Here are the ingredients of your pizza: ");
+
+//         if(pizza.bread == null) {
+            
+//         }
+//         else {
+//             System.out.println(pizza.bread);
+//         }
+
+//         if(pizza.sauce == null) {
+            
+//         }
+//         else {
+//             System.out.println(pizza.sauce);
+//         }
+
+//         if(pizza.cheese == null) {
+            
+//         }
+//         else {
+//             System.out.println(pizza.cheese);
+//         }
+
+//         if(pizza.topping == null) {
+            
+//         }
+//         else {
+//             System.out.println(pizza.topping);
+//         }
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car car = new Car();
+
+//         System.out.println(car.toString());
+//         System.out.println(car);
+
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+
+//         // Food[] refridgerator = new Food[3];
+
+//         Food food1 = new Food("pizza");
+//         Food food2 = new Food("hamburger");
+//         Food food3 = new Food("hotdog");
+
+//         Food[] refridgerator = {food1,food2,food3};
+
+//         // refridgerator[0] = food1;
+//         // refridgerator[1] = food2;
+//         // refridgerator[2] = food3;
+
+//         System.out.println(refridgerator[0].name);
+//         System.out.println(refridgerator[1].name);
+//         System.out.println(refridgerator[2].name);
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Garage garage = new Garage();
+
+//         Car car1 = new Car("BMW");
+//         Car car2 = new Car("Tesla");
+
+//         garage.park(car2);
+//     }
+// }
+
+
+
+// // Static Keyword
+// public class Main {
+
+//     public static void main(String[] args) {
+
+//         Friend friend1 = new Friend("Spongebob");
+//         Friend friend2 = new Friend("Patrick");
+//         Friend friend3 = new Friend("Squidward");
+//         Friend friend4 = new Friend("Sandy");
+
+//         Friend.displayFriends();
+
+//     }
+// }
+
+
+
+// // inheritance
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car car = new Car();
+
+//         // car.go();
+
+//         Bicycle bike = new Bicycle();
+
+//         // bike.stop();
+
+//         System.out.println(car.speed);
+//         System.out.println(bike.speed);
+
+//         System.out.println(car.doors);
+//         System.out.println(bike.pedals);
+//     }
+// }
+
+
+
+// // Method Overridding
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Animal animal = new Animal();
+//         Dog dog = new Dog();
+
+//         dog.speak();
+//         animal.speak();
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Hero hero1 = new Hero("Batman",42,"$$$");
+//         Hero hero2 = new Hero("Superman",43,"Everything");
+
+//         System.out.println(hero2.toString());
+//     }
+// }
+
+
+
 public class Main {
 
     public static void main(String[] args) {
