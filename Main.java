@@ -587,6 +587,67 @@
 
 
 
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         // System.out.printf("This is a format string %d",123);
+
+//         boolean myBoolean = true;
+//         char myChar = '@';
+//         String myString = "cat";
+//         int myInt = 50;
+//         double myDouble = 1000;
+
+//         // System.out.printf("%b",myBoolean);
+//         // System.out.printf("%c",myChar);
+//         // System.out.printf("%s",myString);
+//         // System.out.printf("%d",myInt);
+//         // System.out.printf("%f",myDouble);
+
+//         // System.out.printf("Hello %10s",myString);
+
+//         System.out.printf("You have this much money %.2f",myDouble);
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         final double PI = 3.14159;
+
+//         System.out.println(PI);
+//     }
+// }
+
+
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car myCar1 = new Car();
+//         Car myCar2 = new Car();
+
+//         // System.out.println(myCar1.make);
+//         // System.out.println(myCar1.model);
+//         // System.out.println(myCar1.year);
+//         // System.out.println(myCar1.color);
+//         // System.out.println(myCar1.price);
+
+//         System.out.println(myCar2.make);
+//         System.out.println(myCar2.model);
+
+//         // myCar1.drive();
+//         // myCar1.brake();
+//     }
+// }
+
+
+
 public class Main {
 
     public static void main(String[] args) {
