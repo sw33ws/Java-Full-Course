@@ -838,6 +838,173 @@
 
 
 
+// // Abstraction
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         // Vehicle vehicle = new Vehicle();
+//         Car car = new Car();
+
+//         car.go();
+//     }
+// }
+
+
+
+// // Encapsulation
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car car = new Car("Chevrolet","Camaro",2023);
+
+//         System.out.println(car.getMake());
+//         System.out.println(car.getModel());
+//         System.out.println(car.getYear());
+
+//         car.setYear(2020);
+
+//         System.out.println(car.getYear());
+
+//     }
+// }
+
+
+
+// // Copy Objects
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car car1 = new Car("Chevrolet","Camaro",2023);
+//         // Car car2 = new Car("Ford","Mustange",2023);
+
+//         // car2.copy(car1);
+
+//         Car car2 = new Car(car1);
+
+//         System.out.println(car1);
+//         System.out.println(car2);
+//         System.out.println();
+//         System.out.println(car1.getMake());
+//         System.out.println(car1.getModel());
+//         System.out.println(car1.getYear());
+//         System.out.println();
+//         System.out.println(car2.getMake());
+//         System.out.println(car2.getModel());
+//         System.out.println(car2.getYear());
+//     }
+// }
+
+
+
+// // Interface
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Rabbit rabbit = new Rabbit();
+//         Hawk hawk = new Hawk();
+//         Fish fish = new Fish();
+
+//         rabbit.flee();
+//         hawk.hunt();
+//         fish.flee();
+//         fish.hunt();
+//     }
+// }
+
+
+
+// // Polymorphism
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Car car = new Car();
+//         Bicycle bicycle = new Bicycle();
+//         Boat boat = new Boat();
+
+//         Vehicle[] racers = {car,bicycle,boat};
+
+//         for(Vehicle x : racers) {
+//             x.go();
+//         }
+//     }
+// }
+
+
+// import java.util.Scanner;
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Animal animal;
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.println("What animal do you want?");
+//         System.out.println("(1=dog) or (2=cat): ");
+//         int choice = scanner.nextInt();
+
+//         if(choice==1) {
+//             animal = new Dog();
+//             animal.speak();
+//         }
+//         else if(choice==2) {
+//             animal = new Cat();
+//             animal.speak();
+//         }
+//         else {
+//             animal = new Animal();
+//             System.out.println("That Choice was invalid");
+//             animal.speak();
+//         }
+//     }
+// }
+
+
+
+// // Exception handling
+// import java.util.InputMismatchException;
+// import java.util.Scanner;
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         Scanner scanner = new Scanner(System.in);
+
+//         try {
+
+//             System.out.println("Enter a whole number to divide: ");
+//             int x = scanner.nextInt();
+
+//             System.out.println("Enter a whole number to divide: ");
+//             int y = scanner.nextInt();
+
+//             int z = x/y;
+
+//             System.out.println("result: " + z);
+//         }
+//         catch(ArithmeticException e) {
+//             System.out.println("You can't divide by zero!");
+//         }
+//         catch(InputMismatchException e) {
+//             System.out.println("You can't enter letters and symbols, numbers only");
+//         }
+//         catch(Exception e) {
+//             System.out.println("This is bad practice");
+//         }
+//         finally {
+//             scanner.close();
+//             System.out.println("This will always print, its good for closing things like scanners");
+//         }
+//     }
+// }
+
+
+
 public class Main {
 
     public static void main(String[] args) {
