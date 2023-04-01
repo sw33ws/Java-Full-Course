@@ -1005,11 +1005,131 @@
 
 
 
+// import java.io.File;
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         File file = new File("javatest.txt");
+        
+//         if(file.exists()) {
+//             System.out.println("That file exists!");
+//             System.out.println(file.getPath());
+//             System.out.println(file.getAbsolutePath());
+//             System.out.println(file.isFile());
+//             file.delete();
+//         }
+//         else {
+//             System.out.println("That file doesn't exists!");
+//         }
+//     }
+// }
+
+
+
+// // File Writer
+
+// import java.io.FileWriter;
+// import java.io.IOException;
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         try {
+//             FileWriter writer = new FileWriter("poem.txt");
+//             writer.write("Roses are red \nViolets are blue");
+//             writer.append("\n(A Poem by me!)");
+//             writer.close();
+//         } catch (IOException e) {
+//             e.printStackTrace();
+//         }
+//     }
+// }
+
+
+
+// // File Writer
+
+// import java.io.FileNotFoundException;
+// import java.io.FileReader;
+// import java.io.IOException;
+
+// public class Main {
+
+//     public static void main(String[] args) {
+        
+//         try {
+//             FileReader reader = new FileReader("javatest.txt");
+//             int data = reader.read();
+//             while(data != -1) {
+//                 System.out.print((char)data);
+//                 data = reader.read();
+//             } 
+//             reader.close();
+
+//         } catch (FileNotFoundException e) {
+//             e.printStackTrace();
+//         } catch (IOException e) {
+//             e.printStackTrace();
+//         }
+//     }
+// }
+
+
+
+// // File Audio
+
+// import java.io.File;
+// import java.io.IOException;
+// import java.util.Scanner;
+// import javax.sound.sampled.*;
+
+// public class Main {
+
+//     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+
+//         Scanner scanner = new Scanner(System.in);
+            
+//         File file = new File("audio.wav");
+//         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+//         Clip clip = AudioSystem.getClip();
+//         clip.open(audioStream);
+
+//         String response = "";
+
+//         while(!response.equals("Q")) {
+//             System.out.println("P = play, S= Stop, R = Reset, Q = Quit");
+//             System.out.println("Enter your choice: ");
+
+//             response = scanner.next();
+//             response = response.toUpperCase();
+
+//             switch(response) {
+//                 case ("P"): clip.start();
+//                 break;
+//                 case ("S"): clip.stop();
+//                 break;
+//                 case ("R"): clip.setMicrosecondPosition(0);
+//                 break;
+//                 case ("Q"): clip.close();
+//                 break;
+//                 default: System.out.print("not a valid response");
+//             }
+
+//         }
+//         System.out.println("Closed");
+//     }
+// }
+
+
+
 public class Main {
 
-    public static void main(String[] args) {
-        
-        
+     public static void main(String[] args) {
+            
+            
     }
 }
 
@@ -1017,8 +1137,8 @@ public class Main {
 
 // public class Main {
 
-//     public static void main(String[] args) {
-        
-        
+//      public static void main(String[] args) {
+            
+            
 //     }
 // }
