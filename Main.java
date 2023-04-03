@@ -1125,11 +1125,150 @@
 
 
 
+// // GUI
+
+// // import javax.swing.JFrame;
+// // import java.awt.Color;
+// // import javax.swing.ImageIcon;
+
+// public class Main {
+
+//      public static void main(String[] args) {
+            
+//         // JFrame frame = new JFrame();
+//         // frame.setTitle("JFrame title goes here");
+//         // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);             // This is needed to close the window
+//         // frame.setResizable(false);                              // This prevents the frame from being resized
+//         // frame.setSize(420,420);
+//         // frame.setVisible(true);
+
+//         // ImageIcon image = new ImageIcon("logo.png");             // changes the icon of the frame
+//         // frame.setIconImage(image.getImage());
+
+//         // // frame.getContentPane().setBackground(Color.green);
+//         // frame.getContentPane().setBackground(new Color(0,0,0));     // you can use rgb or hexadecimal
+
+//         // MyFrame myframe = new MyFrame();
+//         new MyFrame();
+
+//     }
+// }
+
+
+
+// // Label
+
+// import java.awt.Color;
+// import java.awt.Font;
+
+// import javax.swing.BorderFactory;
+// import javax.swing.ImageIcon;
+// import javax.swing.JFrame;
+// import javax.swing.JLabel;
+// import javax.swing.border.Border;
+
+// public class Main {
+
+//      public static void main(String[] args) {
+
+//         ImageIcon image = new ImageIcon("logo.png");
+//         Border border = BorderFactory.createLineBorder(Color.green,3);
+
+//         JLabel label = new JLabel();
+//         label.setText("Cat, do you even code?");
+//         label.setIcon(image);
+//         label.setHorizontalTextPosition(JLabel.CENTER); // left, center or right of image icon
+//         label.setVerticalTextPosition(JLabel.TOP);
+//         label.setForeground(new Color(0x00FF00)); // font color
+//         label.setFont(new Font("MV Boli",Font.PLAIN,20)); // set font
+//         label.setIconTextGap(10); // set gap to text to image
+//         label.setBackground(Color.black);
+//         label.setOpaque(true); // display background color
+//         label.setBorder(border);
+//         label.setVerticalAlignment(JLabel.CENTER);
+//         label.setHorizontalAlignment(JLabel.CENTER);
+//         // label.setBounds(100, 100, 250, 250);
+            
+//         JFrame frame = new JFrame();
+//         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         // frame.setSize(500,500);
+
+//         // frame.setLayout(null);
+
+//         ImageIcon imageIcon = new ImageIcon("logo.png");
+//         frame.setIconImage(imageIcon.getImage());
+
+//         frame.add(label);
+//         frame.pack();
+//         frame.setVisible(true);
+//     }
+// }
+
+
+
+// // panels
+
+// import java.awt.BorderLayout;
+// import java.awt.Color;
+
+// import javax.swing.ImageIcon;
+// import javax.swing.JFrame;
+// import javax.swing.JLabel;
+// import javax.swing.JPanel;
+
+// public class Main {
+
+//      public static void main(String[] args) {
+
+//         ImageIcon icon = new ImageIcon("logo.png");
+
+//         JLabel label = new JLabel();
+//         label.setText("Hi");
+//         label.setIcon(icon);
+//         label.setVerticalAlignment(JLabel.BOTTOM);
+//         label.setHorizontalAlignment(JLabel.RIGHT);
+
+//         JPanel redPanel = new JPanel();
+//         redPanel.setBackground(Color.red);
+//         redPanel.setBounds(0,0,250,250);
+
+//         JPanel bluePanel = new JPanel();
+//         bluePanel.setBackground(Color.blue);
+//         bluePanel.setBounds(250,0,250,250);
+
+//         JPanel greenPanel = new JPanel();
+//         greenPanel.setBackground(Color.green);
+//         greenPanel.setBounds(0,250,500,250);
+//         greenPanel.setLayout(new BorderLayout());
+            
+
+//         JFrame frame = new JFrame();
+//         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         frame.setLayout(null);
+//         frame.setSize(750,750);
+
+//         ImageIcon imageIcon = new ImageIcon("logo.png");
+//         frame.setIconImage(imageIcon.getImage());
+
+
+//         greenPanel.add(label);
+
+//         frame.add(redPanel);
+//         frame.add(bluePanel);
+//         frame.add(greenPanel);
+
+
+//         frame.setVisible(true);
+//     }
+// }
+
+
+
 public class Main {
 
      public static void main(String[] args) {
             
-            
+
     }
 }
 
@@ -1139,6 +1278,6 @@ public class Main {
 
 //      public static void main(String[] args) {
             
-            
+
 //     }
 // }
