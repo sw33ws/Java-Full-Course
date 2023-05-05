@@ -1439,6 +1439,46 @@
 
 
 
+// JOptionPane
+
+// import javax.swing.ImageIcon;
+// import javax.swing.JOptionPane;
+
+// public class Main {
+
+//      public static void main(String[] args) {
+            
+//         // JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.PLAIN_MESSAGE);
+//         // JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.INFORMATION_MESSAGE);
+//         // JOptionPane.showMessageDialog(null, "Really", "title", JOptionPane.QUESTION_MESSAGE);
+
+//         // while(true) {
+//         //     JOptionPane.showMessageDialog(null, "You're computer has A VIRUS!!!", "title", JOptionPane.WARNING_MESSAGE);
+//         // }
+
+//         // JOptionPane.showMessageDialog(null, "Call tech support NOW OR ELSE!!!", "title", JOptionPane.ERROR_MESSAGE);
+
+//         // JOptionPane.showConfirmDialog(null, "Cat, do you even code", "This my title", JOptionPane.YES_NO_CANCEL_OPTION);
+//         // System.out.println(JOptionPane.showConfirmDialog(null, "Cat, do you even code", "This my title", JOptionPane.YES_NO_CANCEL_OPTION));
+//         // int answer = JOptionPane.showConfirmDialog(null, "Cat, do you even code", "This my title", JOptionPane.YES_NO_CANCEL_OPTION);
+//         // String name = JOptionPane.showInputDialog("What is youur name: ?");
+//         // System.out.println("Hello" + name);
+
+//         String[] responses = {"No, your awesome!", "Thank you","Cool Cat"};
+//         ImageIcon icon = new ImageIcon("logo.png");
+//         JOptionPane.showOptionDialog(null,
+//          "You are awesome",
+//           "Secret Message",
+//            JOptionPane.YES_NO_CANCEL_OPTION,
+//             JOptionPane.INFORMATION_MESSAGE,
+//              icon,
+//               responses,
+//                0);
+//     }
+// }
+
+
+
 public class Main {
 
      public static void main(String[] args) {
