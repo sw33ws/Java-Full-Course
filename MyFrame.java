@@ -184,3 +184,66 @@
 //         }
 //     }
 // }
+
+
+
+// import javax.swing.*;
+// import java.awt.event.*;
+// import java.awt.*;
+
+// public class MyFrame extends JFrame implements ActionListener {
+
+//     JRadioButton pizzabutton;
+//     JRadioButton hamburgerbutton;
+//     JRadioButton hotdogbutton;
+
+//     ImageIcon pizzaIcon;
+//     ImageIcon hamburgerIcon;
+//     ImageIcon hotdogIcon;
+
+//     MyFrame() {
+//         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         this.setLayout(new FlowLayout());
+
+//         pizzabutton = new JRadioButton("pizza");
+//         hamburgerbutton = new JRadioButton("hamburger");
+//         hotdogbutton = new JRadioButton("hotdog");
+
+//         pizzaIcon = new ImageIcon("logo.png");
+//         hamburgerIcon = new ImageIcon("logo.png");
+//         hotdogIcon = new ImageIcon("logo.png");
+
+//         ButtonGroup group = new ButtonGroup();
+//         group.add(pizzabutton);
+//         group.add(hamburgerbutton);
+//         group.add(hotdogbutton);
+
+//         pizzabutton.addActionListener(this);
+//         hamburgerbutton.addActionListener(this);
+//         hotdogbutton.addActionListener(this);
+
+//         pizzabutton.setIcon(pizzaIcon);
+//         hamburgerbutton.setIcon(hamburgerIcon);
+//         hotdogbutton.setIcon(hotdogIcon);
+
+//         this.add(pizzabutton);
+//         this.add(hamburgerbutton);
+//         this.add(hotdogbutton);
+
+//         this.pack();
+//         this.setVisible(true);
+//     }
+
+//     @Override
+//     public void actionPerformed(ActionEvent e) {
+//         if(e.getSource()==pizzabutton) {
+//             System.out.println("You ordered a Pizza!");
+//         }
+//         else if(e.getSource()==hamburgerbutton) {
+//             System.out.println("You ordered a Hamburger!");
+//         }
+//         else if(e.getSource()==hotdogbutton) {
+//             System.out.println("You ordered a Hotdog!");
+//         }
+//     }
+// }
