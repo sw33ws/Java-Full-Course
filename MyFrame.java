@@ -514,3 +514,62 @@
 //         // System.out.println("You released key Code: " +e.getKeyCode());
 //     }
 // }
+
+
+
+// import java.awt.Color;
+// import java.awt.event.*;
+// import javax.swing.*;
+
+// public class MyFrame extends JFrame implements MouseListener {
+
+//     JLabel label;
+
+//     MyFrame() {
+//         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         this.setSize(500, 500);
+
+//         label = new JLabel();
+//         label.setBounds(0, 0, 100, 100);
+//         label.setBackground(Color.red);
+//         label.setOpaque(true);
+//         label.addMouseListener(this);
+
+//         this.add(label);
+
+//         this.setLayout(null);
+//         this.setVisible(true);
+//     }
+
+//     @Override
+//     public void mouseClicked(MouseEvent e) {
+//         // when you pressed and relased 
+//         // System.out.println("You clicked");
+//         label.setBackground(Color.yellow);
+//     }
+
+//     @Override
+//     public void mousePressed(MouseEvent e) {
+//         // if you hold down it will start
+//         // System.out.println("You clicked");
+//         label.setBackground(Color.green);
+//     }
+
+//     @Override
+//     public void mouseReleased(MouseEvent e) {
+//         // when you stop holding down it will start
+//         // System.out.println("You clicked");
+//     }
+
+//     @Override
+//     public void mouseEntered(MouseEvent e) {
+//         // mouse enters the area of a compoent
+//         // System.out.println("You clicked");
+//     }
+
+//     @Override
+//     public void mouseExited(MouseEvent e) {
+//         // when the mouse exits an area compoent
+//         // System.out.println("You clicked");
+//     }
+// }
