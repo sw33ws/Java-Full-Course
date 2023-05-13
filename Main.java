@@ -1840,22 +1840,55 @@
 
 
 
-// Multithreading
+// // Multithreading
 
-public class Main {
+// public class Main {
 
-     public static void main(String[] args) {
+//      public static void main(String[] args) throws InterruptedException {
             
+//         MyThread thread1 = new MyThread();
 
-    }
-}
+//         MyRunnable runnable1 = new MyRunnable();
+//         Thread thread2 = new Thread(runnable1);
+
+//         thread1.start();
+//         thread1.join(5000); // waits for main thread for x amount of millseconds
+//         thread2.start();
+//     }
+// }
 
 
+
+// // Packages
 
 // public class Main {
 
 //      public static void main(String[] args) {
             
+//         // This lets us import a a file outside of the folder your in currently
+//     }
+// }
 
+
+
+// // Run and Compile with java command prompt
+
+// public class Main {
+
+//      public static void main(String[] args) {
+            
+//         System.out.println("Hello World!");
+//     }
+// }
+
+
+
+// // Executeable (.jar) file
+
+// public class Main {
+
+//      public static void main(String[] args) {
+
+//         // open the MakingAJar folder
 //     }
 // }
