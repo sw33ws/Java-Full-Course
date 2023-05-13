@@ -1802,6 +1802,46 @@
 
 
 
+// // Thread
+
+// public class Main {
+
+//      public static void main(String[] args) throws InterruptedException {
+            
+//         // System.out.println(Thread.activeCount());
+
+//         // Thread.currentThread().setName("MAIN Thread");
+//         // System.out.println(Thread.currentThread().getName());
+
+//         // // The Priority is on a scale from 1-10, with 10 being the highest
+//         // Thread.currentThread().setPriority(1);
+//         // System.out.print(Thread.currentThread().getPriority());
+
+//         // System.out.println(Thread.currentThread().isAlive());
+
+//         // for(int i =3; i>0;i--) {
+//         //     System.out.println(i);
+//         //     Thread.sleep(1000);
+//         // }
+
+//         // System.out.println("You are Done");
+
+//         MyThread thread2 = new MyThread();
+
+//         // thread2.start();
+//         // System.out.println(thread2.isAlive());
+
+//         // thread2.setName("Second Thread");
+//         // System.out.println(thread2.getName());
+
+//         System.out.println(thread2.getPriority());
+//     }
+// }
+
+
+
+// Multithreading
+
 public class Main {
 
      public static void main(String[] args) {
